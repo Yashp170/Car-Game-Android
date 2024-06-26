@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5718B1BE-22BE-59CE-3491-3F624C164B7D}</ProjectGuid>
+    <ProjectGuid>{A1872B88-01AA-0C15-549E-B24E62A06DDA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SimpleInput.Editor</AssemblyName>
@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\SimpleInput\Editor\KeyInputDrawer.cs" />
+    <Compile Include="Assets\Plugins\SimpleInput\Editor\MouseButtonInputDrawer.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Editor\BaseInputDrawer.cs" />
+    <Compile Include="Assets\Plugins\SimpleInput\Editor\KeyInputDrawer.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Editor\ButtonInputDrawer.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Editor\AxisInputDrawer.cs" />
-    <Compile Include="Assets\Plugins\SimpleInput\Editor\MouseButtonInputDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\SimpleInput\Editor\SimpleInput.Editor.asmdef" />
@@ -768,7 +768,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SimpleInput.Runtime.csproj">
-      <Project>{5355E356-FFD2-E7D2-DEF0-D85D698717F7}</Project>
+      <Project>{6DFAF527-C16F-08AD-C7BD-6725950B9B44}</Project>
       <Name>SimpleInput.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

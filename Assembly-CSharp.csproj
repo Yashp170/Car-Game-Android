@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{08F06289-8721-2F0D-8621-38E64538D61C}</ProjectGuid>
+    <ProjectGuid>{913D8ED8-3128-A5F1-9889-FA6514FF2A0E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,23 +57,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BNG Framework\Scripts\Core\TrackedDevice.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Extra\RigidbodyImpulse.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleRandomInput.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\AutoGrabGrabbable.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleManager.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ScreenFader.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\ArrowGrabArea.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\PunctureCollider.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ScaleBetweenPoints.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SteeringWheel.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Ground Materials\GroundMaterialManager.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\PolyStang\Scripts\CarController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\HingeHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\GrappleShot.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\VelocityTracker.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LiquidWobble.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\LocomotionManager.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleStandardInput.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoCube.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\MagazineSlide.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\DoorHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRCanvas.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleDamage.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\Climbable.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\RingHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\JoystickVehicleControl.cs" />
@@ -84,7 +91,9 @@
     <Compile Include="Assets\BNG Framework\Scripts\Components\LookAtTransform.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\ToggleActiveOnInputAction.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleVisualEffects.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\VREmulator.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Ground Materials\TireMarksRenderer.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Arrow.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\SimpleElevator.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs" />
@@ -92,18 +101,25 @@
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\TouchController.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\CinemachineFadeOutNearbyObjects.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Tools\TextureCanvas.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\MovingPlatform.cs" />
+    <Compile Include="Assets\PolyStang\Scripts\CarSounds.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ThirdPersonFollowDistanceModifier.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Extra\VehicleNitro.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\ExtensionMethods.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\DualTarget\MoveAimTarget.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\PlayerScaler.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
+    <Compile Include="Assets\PolyStang\Scripts\CameraSwitcher.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\BulletInsert.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Tools\CommonTools.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Explosive.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleTelemetry.cs" />
+    <Compile Include="Assets\Scripts\OnTriggerHaptic.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\HandModelSwitcher.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\StaticBatch.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Utility\VRUtils.cs" />
@@ -121,7 +137,6 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\Grabber.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Zipline.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZone.cs" />
-    <Compile Include="Assets\Scripts 1\AnyTriggerEvent.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableEvents.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterConstraint.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs" />
@@ -135,6 +150,9 @@
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
     <Compile Include="Assets\Scripts\CameraLook.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPose.cs" />
+    <Compile Include="Assets\PolyStang\Scripts\CarLights.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Extra\RigidbodyPause.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Ground Materials\TireParticleEmitter.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\DualTarget\PointAtAimTarget.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoseDefinition.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZoneOffset.cs" />
@@ -143,12 +161,14 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportDestination.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\Projectile.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\RotateWithHMD.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Extra\FollowHeading.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableChild.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRKeyboardKey.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZoneScale.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\JointHelper.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\FPSText.cs" />
@@ -164,6 +184,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerGravity.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoseBlender.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\WeaponSlide.cs" />
+    <Compile Include="Assets\EVP5\Scripts\Tools\SceneTools.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\VehicleController.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\BoneMapping.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRKeyboard.cs" />
@@ -175,6 +196,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHaptics.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRUISystem.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleAudio.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\RagdollHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Lever.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\IKDummy.cs" />
@@ -189,7 +211,6 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\FollowTransform.cs" />
-    <Compile Include="Assets\Scripts 1\OnTriggerHaptic.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\ControllerModelSelector.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SampleHandController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabPointTrigger.cs" />
@@ -218,6 +239,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\HeadCollisionMove.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\UICanvasGroup.cs" />
+    <Compile Include="Assets\Scripts\AnyTriggerEvent.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Bow.cs" />
@@ -228,9 +250,12 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerJoint.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\BNGPlayerController.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleTireEffects.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRTextInput.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\HandJet.cs" />
+    <Compile Include="Assets\Scripts\SkyBoxChanger.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleCameraController.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\AutoPoser.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\AmmoDispenser.cs" />
@@ -249,36 +274,12 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerRotation.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Slider.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerClimbing.cs" />
+    <Compile Include="Assets\EVP5\Scripts\VehicleViewConfig.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PointerEvents.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\ArmSwingLocomotion.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableRingHelper.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoser.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Extra\VehicleNitro.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleTireEffects.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleStandardInput.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleTelemetry.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleViewConfig.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Ground Materials\GroundMaterialManager.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Extra\FollowHeading.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Extra\RigidbodyImpulse.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Extra\RigidbodyPause.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Ground Materials\TireParticleEmitter.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Tools\CommonTools.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleController.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Tools\TextureCanvas.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleCameraController.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleManager.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleDamage.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleVisualEffects.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleRandomInput.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Tools\SceneTools.cs" />
-    <Compile Include="Assets\EVP5\Scripts\Ground Materials\TireMarksRenderer.cs" />
-    <Compile Include="Assets\EVP5\Scripts\VehicleAudio.cs" />
-    <Compile Include="Assets\PolyStang\Scripts\CarSounds.cs" />
-    <Compile Include="Assets\PolyStang\Scripts\CarLights.cs" />
-    <Compile Include="Assets\PolyStang\Scripts\CarController.cs" />
-    <Compile Include="Assets\PolyStang\Scripts\CameraSwitcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
@@ -323,6 +324,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\BNG Framework\Materials\MobileColorShader.shader" />
     <None Include="Assets\BNG Framework\Models\Hands\OculusHands\LICENSE.txt" />
+    <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
     <None Include="Assets\BNG Framework\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -1161,20 +1163,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{62A3E40E-1996-7D93-3C95-E6D21E23A066}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
     <ProjectReference Include="BNGHandPoseID.csproj">
-      <Project>{C7AED7A7-872A-79BE-D567-FEE5CDB2BB4E}</Project>
+      <Project>{CA78CF52-CABA-397B-D15A-BBDC9F5BB7E6}</Project>
       <Name>BNGHandPoseID</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{1789429F-C8A4-61BF-8467-29ADDCCB585C}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="AimingRig.csproj">
-      <Project>{E8E41542-EF49-419D-9719-60500675DE4F}</Project>
+      <Project>{26939EF5-7668-BA43-C2E5-5AB205B59FCF}</Project>
       <Name>AimingRig</Name>
     </ProjectReference>
+    <ProjectReference Include="CW.Common.csproj">
+      <Project>{394570E2-E113-0D4A-5A7F-02C6F45E982E}</Project>
+      <Name>CW.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="SimpleInput.Runtime.csproj">
-      <Project>{5355E356-FFD2-E7D2-DEF0-D85D698717F7}</Project>
+      <Project>{6DFAF527-C16F-08AD-C7BD-6725950B9B44}</Project>
       <Name>SimpleInput.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleInput.Editor.csproj">
-      <Project>{5718B1BE-22BE-59CE-3491-3F624C164B7D}</Project>
+      <Project>{A1872B88-01AA-0C15-549E-B24E62A06DDA}</Project>
       <Name>SimpleInput.Editor</Name>
     </ProjectReference>
   </ItemGroup>

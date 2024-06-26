@@ -66,20 +66,20 @@ public class VehicleStandardInput : MonoBehaviour
 		// Read the user input
 
 		float steerInput = Mathf.Clamp(SimpleInput.GetAxis(steerAxis), -1.0f, 1.0f);
-		float handbrakeInput = Mathf.Clamp01(Input.GetAxis(handbrakeAxis));
+		float handbrakeInput = Mathf.Clamp01(SimpleInput.GetAxis(handbrakeAxis));
 
 		float forwardInput = 0.0f;
 		float reverseInput = 0.0f;
 
 		if (throttleAndBrakeInput == ThrottleAndBrakeInput.SeparateAxes)
 			{
-			forwardInput = Mathf.Clamp01(Input.GetAxis(throttleAxis));
-			reverseInput = Mathf.Clamp01(Input.GetAxis(brakeAxis));
+			forwardInput = Mathf.Clamp01(SimpleInput.GetAxis(throttleAxis));
+			reverseInput = Mathf.Clamp01(SimpleInput.GetAxis(brakeAxis));
 			}
 		else
 			{
-			forwardInput = Mathf.Clamp01(Input.GetAxis(throttleAndBrakeAxis));
-			reverseInput = Mathf.Clamp01(-Input.GetAxis(throttleAndBrakeAxis));
+			forwardInput = Mathf.Clamp01(SimpleInput.GetAxis(throttleAndBrakeAxis));
+			reverseInput = Mathf.Clamp01(-SimpleInput.GetAxis(throttleAndBrakeAxis));
 			}
 
 		// Translate forward/reverse to vehicle input
@@ -121,7 +121,7 @@ public class VehicleStandardInput : MonoBehaviour
 			}
 		else
 			{
-			bool reverse = Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);
+			bool reverse = SimpleInput.GetKey(KeyCode.LeftControl) || SimpleInput.GetKey(KeyCode.RightControl);
 
 			if (!reverse)
 				{

@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Personal.unity
     guid: d316bd1a1570b7e468495f6b09dfa90e
+  - enabled: 1
+    path: Assets/Scenes/Car/Car.unity
+    guid: 4b37db79be259cc42bfa91872e524cfe
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e3194e81b0ce5224c953e68126391f5a,
       type: 2}

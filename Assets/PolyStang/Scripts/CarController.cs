@@ -122,7 +122,8 @@ namespace PolyStang
         {
             if (control == ControlMode.Keyboard)
             {
-                moveInput = Input.GetAxis("Vertical");
+                moveInput = SimpleInput.GetAxis("Vertical");
+                /*moveInput = Input.GetAxis("Vertical");*/
                 // steerInput = Input.GetAxis("Horizontal");
                 steerInput = SimpleInput.GetAxis("Horizontal");
 

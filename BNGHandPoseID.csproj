@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C7AED7A7-872A-79BE-D567-FEE5CDB2BB4E}</ProjectGuid>
+    <ProjectGuid>{CA78CF52-CABA-397B-D15A-BBDC9F5BB7E6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>BNGHandPoseID</AssemblyName>
